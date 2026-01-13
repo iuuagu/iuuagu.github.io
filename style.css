@@ -123,10 +123,10 @@ h2 {
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: #0f0f1a;
     color: white;
-
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,6 +169,11 @@ body {
 ul {
     list-style: none;
     padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 ul li {
